@@ -6,8 +6,8 @@ import Footer from '../components/Footer/Footer'
 import Bnnr from '../components/Banner/bnnr.png'
 
 function Home() {
-    const data = 'Welcome To WebSoulLabs'
-    const item = 'WebSoulLabs is a global software solutions provider in software development, mobile application development'
+    const data = 'Welcome To Lorem ipsum '
+    const item = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 
     return (
         <div>

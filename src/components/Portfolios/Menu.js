@@ -13,7 +13,7 @@ function Menu({ menuItem }) {
                         return <div class="col-md-4 p-2 justify-content-center d-flex" key={item.id} >
                             <div class="bg-white   "style={{ width: "300px"}}>
                             <img src={item.image} style={{ width: "300px" }} alt="Card image cap"></img>
-                            <h5 class="card-title mt- d-flex p-2 justify-content-center">{item.title}</h5>
+                            <h5 class="card-title mt- d-flex p-2 justify-content-center">{item.category}</h5>
                             {/* <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                             {/* <p class="card-text"><small class="text-muted"></small></p> */}
                             </div>
