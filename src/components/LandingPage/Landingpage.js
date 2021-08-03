@@ -11,7 +11,7 @@ function Aboutus() {
             <div class="row">
                 <div class="col p-4">
                     <p style={{ textAlign: "justify", fontSize: "18px", color: 'GrayText' }}>
-                        CVS Infosolutions is an end to end software solutions for different types of industries over the globe. We basically
+                        STS Infosolutions is an end to end software solutions for different types of industries over the globe. We basically
                         operating on Perinthalmannna, Kerala, India. We consider a client as high priority as we offer ultimate solution for
                         the ease of their business or services.
 

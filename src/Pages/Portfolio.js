@@ -1,7 +1,9 @@
 import React from 'react'
 import Banner from '../components/Banner/Banner'
 import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 import Portfolios from '../components/Portfolios/Portfolios'
+import Bnnr from '../components/Banner/bnnr3.png'
 
 
 function Portfolio() {
@@ -11,7 +13,9 @@ function Portfolio() {
     return (
         <div>
             <Header />
-            <Banner data={data} item={item}></Banner>            <Portfolios />
+            <Banner  data={data} item={item} img={Bnnr}></Banner>          
+            <Portfolios />
+            <Footer/>
         </div>
     )
 }

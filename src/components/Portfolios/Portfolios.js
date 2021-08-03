@@ -1,27 +1,34 @@
-import React from 'react'
-import '../Portfolios/style.css';
+import { useState } from 'react';
+import items from './data';
+import Menu from './Menu';
+import Button from './Button';
+
+const allCategories = ['All', ...new Set(items.map(item => item.category))];
+
 function Portfolios() {
-    return (
-        <div>
-         <div class="container">
+  const [menuItem, setMenuItem] = useState(items);
+  const [buttons, setButtons] = useState(allCategories);
 
-<div class="section-title">
-  <h2>Portfolio</h2>
-</div>
+  //Filter Function
+  const filter = (button) =>{
 
-<div class="row" data-aos="fade-up">
-  <div class="col-lg-12 d-flex justify-content-center">
-    <ul id="portfolio-flters">
-      <li data-filter="*" class="filter-active">All</li>
-      <li data-filter=".filter-app">Designs</li>
+    if(button === 'All'){
+      setMenuItem(items);
+      return;
+    }
 
-      <li data-filter=".filter-web">Web</li>
-    </ul>
-  </div>
-</div>
-</div>
-        </div>
-    )
+    const filteredData = items.filter(item => item.category ===  button);
+    setMenuItem(filteredData)
+  }
+
+
+  return (
+    <div>
+      <Button button={buttons} filter={filter} />
+       <Menu menuItem={menuItem}/>
+
+    </div>
+  );
 }
 
-export default Portfolios
+      export default Portfolios

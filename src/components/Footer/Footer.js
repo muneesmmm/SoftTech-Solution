@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div>
 <footer class="text-center text-white" style={{backgroundColor: "#f1f1f1"}}>
-  <div class="container pt-4">
+  {/* <div class="container pt-4">
     <section class="mb-4">
       <a
         class="btn btn-link btn-floating btn-lg text-dark m-1"
@@ -53,7 +53,7 @@ function Footer() {
         ><i class="fab fa-github"></i
       ></a>
     </section>
-  </div>
+  </div> */}
 
   <div class="text-center text-dark p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
     © 2020 Copyright:
