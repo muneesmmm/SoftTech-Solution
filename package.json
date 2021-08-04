@@ -1,5 +1,6 @@
 {
   "name": "softtech",
+  "homepage": "https://muneesmmm.github.io/SoftTech-Solution",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -76,7 +77,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "preload": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
