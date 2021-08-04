@@ -1,19 +1,37 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './main'
+import './Style.css'
+import 'remixicon/fonts/remixicon.css'
+import './glightbox.min.css'
+import AOS from 'aos';
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 function Header() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
-        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-black clean-navbar">
-            <div class="container"><Link to={'/'}><a class="navbar-brand logo">Lorem ipsum</a></Link><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+
+        <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-black clean-navbar p-2">
+            <div class="container-fluid"><Link class="navbar-brand logo" to={'/'}><span>Lorem</span></Link>
+            <ul class="nav">
+                <li class="nav-item"> <a href="https://twitter" class="twitter"><i class="bi bi-twitter"></i></a></li>
+                <li class="nav-item"><a href="https://facebook" class="facebook"><i class="bi bi-facebook"></i></a></li>
+                <li class="nav-item"><a href="https://instagram" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a></li>
+                <li class="nav-item"><a href="https://twitterhttps://twitter" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a></li>
+                </ul>
+        
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto mb-2">
-                        <li class="nav-item"><Link to={'/'}><a class="nav-link active">Company</a></Link></li>
+                        <li class="nav-item"><Link class="nav-link active" to={'/'}>Company</Link></li>
                         <li class="nav-item">
-                            <Link to={'/services'}><a class="nav-link">Services</a></Link>
+                            <Link class="nav-link" to={'/services'}>Services</Link>
                         </li>
-                        <li class="nav-item"><Link to={'/portfolio'}><a class="nav-link" href="pricing.html">Portfolio</a></Link></li>
-                        <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><Link  class="nav-link" to={'/portfolio'}>Portfolio</Link></li>
+                        <li class="nav-item"><Link  class="nav-link" to={'/aboutus'}>About Us</Link> </li>
+                        <li class="nav-item"><Link  class="nav-link" to={'/contact'}>Contact Us</Link></li>
                     </ul>
                 </div>
             </div>

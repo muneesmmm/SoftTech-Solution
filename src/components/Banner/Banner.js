@@ -8,8 +8,8 @@ function Banner(props) {
       <div class="mask container">
         <div class="pl-3 pt-3" style={{marginTop:"56px"}} >
           <div class="text-white col-md-6 col-sm-12 pt-5"  >
-            <h2 class="">{props.data}</h2>
-            <h4 class="" style={{opacity:"0.6"}}>{props.item}</h4>
+            <h2 class="" data-aos="fade-down">{props.data}</h2>
+            <h4 class="" data-aos="fade-up" style={{opacity:"0.6"}}>{props.item}</h4>
           </div>
         </div>
       </div>

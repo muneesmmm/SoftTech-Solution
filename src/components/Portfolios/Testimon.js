@@ -12,7 +12,8 @@ function testimon() {
                     <div class="testimonials-slider swiper-container " >
                         <div class="row swiper-wrapper justify-content-center ">
                             
-                            <div class="col-md-4 swiper-slide " style={{width:"400px"}}>
+                            <div class="col-md-4 swiper-slide " style={{width:"400px"}} data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                                 <div class="testimonial-item">
                                     <p>
                                         Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
@@ -24,7 +25,8 @@ function testimon() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 swiper-slide" style={{width:"400px"}}>
+                            <div class="col-md-4 swiper-slide" style={{width:"400px"}} data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                                 <div class="testimonial-item">
                 
                                     <p>
@@ -37,7 +39,8 @@ function testimon() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 swiper-slide " style={{width:"400px"}}>
+                            <div class="col-md-4 swiper-slide " style={{width:"400px"}} data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                                 <div class="testimonial-item">
                                     <p>
                                         Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
@@ -49,7 +52,8 @@ function testimon() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4 swiper-slide" style={{width:"400px"}}>
+                            <div class="col-md-4 swiper-slide" style={{width:"400px"}} data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
                                 <div class="testimonial-item">
                 
                                     <p>

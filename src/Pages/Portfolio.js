@@ -12,7 +12,7 @@ function Portfolio() {
     const item = 'Our efforts - designed with skill & quality. Offering you the immense scope of solutions implemented by us with the high-quality standard.'
 
     return (
-        <div>
+        <div class="">
             <Header />
             <Banner  data={data} item={item} img={Bnnr}></Banner>          
             <Portfolios />

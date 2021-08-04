@@ -28,7 +28,7 @@ function Services() {
                     </div>
                 </div>
                 <div class="row justify-content-center ">
-                    <div class="col-md-6 order-1 p-3 bg-light" >
+                    <div class="col-md-6 order-1 p-3 bg-light" data-aos="fade-right">
                         <h3>Web Application Development</h3><hr/>
                         <p style={{ textAlign: "justify" }}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -45,7 +45,7 @@ function Services() {
                 <div class="col-md-6 order-3  bg-light">
                         <img class="p-2" src={'https://www.websoullabs.com/assets/service4.jpeg'} alt='web' style={{ width: "100%" }}></img>
                     </div>
-                    <div class="col-md-6 order-4 p-3 bg-light" >
+                    <div class="col-md-6 order-4 p-3 bg-light" data-aos="fade-right" >
                         <h3>Android Application Development</h3><hr/>
                         <p style={{ textAlign: "justify" }}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -56,8 +56,8 @@ function Services() {
                     </div>
                     
                 </div>
-                <div class="row justify-content-center ">
-                    <div class="col-md-6 order-1 p-3 bg-light" >
+                <div class="row justify-content-center " >
+                    <div class="col-md-6 order-1 p-3 bg-light" data-aos="fade-right" >
                         <h3>E-commerce Web Development</h3><hr/>
                         <p style={{ textAlign: "justify" }}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
