@@ -5,8 +5,8 @@ function Services() {
         <div>
             <div class="container">
                 <div class="row pt-5">
-                    <div class="col d-flex justify-content-center" style={{ fontFamily: 'cursive' }}>
-                        <h2>Our Services</h2>
+                <div class="section-header">
+                        <p>Our Services</p>
                     </div>
                 </div>
                 <div class="row">
@@ -29,7 +29,7 @@ function Services() {
                 </div>
                 <div class="row justify-content-center ">
                     <div class="col-md-6 order-1 p-3 bg-light" data-aos="fade-right">
-                        <h3>Web Application Development</h3><hr/>
+                        <h3 style={{fontWeight:"700",color:"#012970"}}>Web Application Development</h3><hr/>
                         <p style={{ textAlign: "justify" }}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -46,7 +46,7 @@ function Services() {
                         <img class="p-2" src={'https://www.websoullabs.com/assets/service4.jpeg'} alt='web' style={{ width: "100%" }}></img>
                     </div>
                     <div class="col-md-6 order-4 p-3 bg-light" data-aos="fade-right" >
-                        <h3>Android Application Development</h3><hr/>
+                        <h3 style={{fontWeight:"700",color:"#012970"}}>Android Application Development</h3><hr/>
                         <p style={{ textAlign: "justify" }}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -58,7 +58,7 @@ function Services() {
                 </div>
                 <div class="row justify-content-center " >
                     <div class="col-md-6 order-1 p-3 bg-light" data-aos="fade-right" >
-                        <h3>E-commerce Web Development</h3><hr/>
+                        <h3 style={{fontWeight:"700",color:"#012970"}}>E-commerce Web Development</h3><hr/>
                         <p style={{ textAlign: "justify" }}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation

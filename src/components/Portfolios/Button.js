@@ -5,7 +5,7 @@ function Button({button, filter}) {
         <div className="buttons">
             {
                 button.map((cat, i)=>{
-                    return <button type="button" onClick={()=> filter(cat)} className="btn">{cat}</button>
+                    return <button data-aos="fade-down" type="button" onClick={()=> filter(cat)} className="btn">{cat}</button>
                 })
             }
         </div>

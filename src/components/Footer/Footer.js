@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './Style.css'
 function Footer() {
     return (
-      <footer id="footer" class="footer">
+      <footer id="footer" class="footer" data-aos="fade-up">
       <div class="footer-top">
         <div class="container">
           <div class="row gy-4">
@@ -14,10 +14,10 @@ function Footer() {
               </a>
               <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
               <div class="social-links mt-3">
-                <a href="https://twitter" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="https://facebook" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://instagram" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
-                <a href="https://twitterhttps://twitter" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+                <a href="https://twitter.com" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://facebook.com" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://instagram.com" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+                <a href="https://linkedin.com" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
               </div>
             </div>
   
